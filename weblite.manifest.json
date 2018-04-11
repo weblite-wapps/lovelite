@@ -1,0 +1,9 @@
+{
+  "name": "lovelite",
+  "instancable": false,
+  "creator": false,
+  "inline": true,
+  "shareDB": false,
+  "width": 350,
+  "height": 350
+}
