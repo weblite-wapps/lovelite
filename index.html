@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Lovelite</title>
+    <title>lovelite</title>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
   </head>
@@ -22,10 +22,22 @@
       </div>
     </div>
 
-
     <script src="https://cdn.jsdelivr.net/npm/ramda@0.25/dist/ramda.js"></script>
     <script src="https://weblite.me:3000/code/wappLibs/core" charset="utf-8"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" charset="utf-8"></script>
-    <script src="index.js" charset="utf-8"></script>
+    <script>
+      $(document).ready(function(){
+        $('.title').click(function(){
+          $('.container').addClass('open')
+        })
+
+
+        $('.close').click(function(){
+          $('.container').removeClass('open')
+        })
+
+        W.start()
+      })
+    </script>
   </body>
 </html>
