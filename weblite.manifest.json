@@ -2,8 +2,13 @@
   "name": "lovelite",
   "instancable": false,
   "creator": false,
+  "fullscreen": false,
   "inline": true,
   "shareDB": false,
   "width": 350,
-  "height": 350
+  "height": 350,
+  "servIndexes": {
+    "inline": "index",
+    "main": "index"
+  }
 }
