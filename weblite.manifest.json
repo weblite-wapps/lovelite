@@ -1,11 +1,12 @@
 {
   "name": "lovelite",
-  "id": "5afd6a3ed17ae32f9743a991",
+  "id": "5bc1d887b422544b4d220599",
   "instancable": false,
   "creator": false,
   "fullscreen": false,
   "inline": true,
   "shareDB": false,
+  "searchable": true,
   "width": 350,
   "height": 350,
   "servIndexes": {
