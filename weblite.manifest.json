@@ -2,7 +2,7 @@
   "name": "lovelite",
   "id": "5c4c267ee50e46486b155fc3",
   "searchable": true,
-  "instancable": false,
+  "instantiable": false,
   "creator": false,
   "fullscreen": false,
   "inline": true,
