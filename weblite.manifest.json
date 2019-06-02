@@ -6,10 +6,11 @@
   "creator": false,
   "fullscreen": false,
   "inline": true,
-  "width": 350,
-  "height": 350,
+  "width": 320,
+  "height": 320,
   "servIndexes": {
     "inline": "index",
     "main": "index"
-  }
+  },
+  "version": "1.0.1"
 }
